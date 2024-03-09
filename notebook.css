@@ -66,6 +66,7 @@ header, .gorev-form{
     margin: .5rem;
     font-size: 1.2rem;
     background-color: white;
+   transition: .5s ease-in-out;
 }
 
 .gorev-tanim{
@@ -93,4 +94,11 @@ header, .gorev-form{
 .tamamlanan-gorev{
     text-decoration: line-through;
     opacity: 0.5;
+}
+
+.far{
+    pointer-events: none;
+}
+.kaybol{
+    transform: scale(0);
 }
